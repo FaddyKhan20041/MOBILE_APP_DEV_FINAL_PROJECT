@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Apple body -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF5733" /> <!-- Set the color for the apple -->
+        </shape>
+    </item>
+
+    <!-- Apple stem -->
+    <item android:top="10dp" android:left="40dp" android:right="40dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#228B22" /> <!-- Set the color for the stem -->
+            <size android:width="10dp" android:height="30dp" /> <!-- Set the size of the stem -->
+        </shape>
+    </item>
+</layer-list>
